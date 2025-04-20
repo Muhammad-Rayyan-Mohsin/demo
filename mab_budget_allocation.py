@@ -328,7 +328,7 @@ def main():
     """)
     
     # Load data
-    df = load_data("sample2_encrypted.csv")
+    df = load_data("sample2.csv")
     
     # Add arms selector
     st.sidebar.header("Arms Configuration")
